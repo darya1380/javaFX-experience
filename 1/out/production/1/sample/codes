@@ -1,0 +1,9 @@
+        Circle circle = new Circle(100,100, 50, Color.rgb(200,200,100));
+        Circle circle1 = new Circle(300, 300, 50, Color.rgb(50,250,200));
+        Circle circle2 = new Circle(500,500,50,Color.rgb(250,0, 200));
+        Rectangle rectangle = new Rectangle(500,500, 100, 100);
+        Rectangle rectangle1 = new Rectangle(100,100, Color.rgb(100,100,200));
+        rectangle1.setX(500);
+        rectangle1.setY(100);
+        VBox root2 = new VBox(circle, circle1, circle2, rectangle, rectangle1);
+       primaryStage.setScene(new Scene(root2, 600, 600));
